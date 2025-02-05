@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    background-color: #0a0a0a; /* Fondo negro deportivo */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #ff0000, #0056b3); /* Degradado rojo a azul */
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Contenedor de videos */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos de los videos */
+video {
+    width: 80%;
+    max-width: 900px;
+    border: 4px solid #ff0000; /* Borde rojo estilo tuning */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Efecto neón rojo */
+    transition: transform 0.3s ease-in-out;
+}
+
+video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 86, 179, 0.8); /* Efecto neón azul al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    padding: 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.7);
+}

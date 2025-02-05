@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    background-color: #0a0a1a; /* Azul oscuro */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #6a0dad, #1e3a8a); /* Degradado púrpura a azul oscuro */
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor del video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Estilos del video */
+video {
+    width: 40%;
+    max-width: 400px;
+    border: 5px solid #6a0dad; /* Borde púrpura */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(106, 13, 173, 0.7); /* Efecto de resplandor púrpura */
+}
+
+/* Pie de página */
+footer {
+    background-color: #1e3a8a; /* Azul oscuro */
+    padding: 15px;
+    font-size: 1rem;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #28a745, #218838); /* Degradado verde */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Título de secciones */
+h2 {
+    color: #218838;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Tarjetas de pósters */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta de tamaño */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Sombra al pasar el ratón */
+}
+
+.card img {
+    border-bottom: 3px solid #28a745; /* Borde inferior verde */
+    width: 100%; /* Asegura que ocupe todo el ancho de la tarjeta */
+    height: 450px; /* Altura para pósters */
+    object-fit: cover; /* Recorta suavemente la imagen para llenar el contenedor */
+    border-radius: 10px 10px 0 0; /* Bordes superiores redondeados */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 30px;
+}
+
+/* Espaciado entre tarjetas */
+.row.g-4 > * {
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    color: #ccc;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .card img {
+        height: 300px; /* Ajusta la altura de los pósters en pantallas pequeñas */
+    }
+
+    .icono {
+        width: 60px; /* Tamaño reducido para pantallas pequeñas */
+        height: 60px; /* Tamaño reducido para pantallas pequeñas */
+    }
+}

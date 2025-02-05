@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #333; /* Texto oscuro */
+}
+
+header {
+    background-color: #007bff; /* Azul Bootstrap */
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    font-size: 14px;
+    background-color: #222;
+    color: #ccc;
+}
+
+
