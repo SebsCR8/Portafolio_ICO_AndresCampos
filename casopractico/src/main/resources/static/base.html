@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${titulo}">Farmacia</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Farmacia</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/categorias">Categorías</a>
+            <a href="/productos">Productos</a>
+            <a href="/quejas">Quejas</a>
+        </nav>
+    </header>
+    <main th:insert="~{::content}"></main>
+    <footer>
+        <p>© 2025 Farmacia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
